@@ -56,10 +56,8 @@ function Car(company, model, year) {
   this.model = model;
   this.year = year;
   this.move = 0;
-  moveC
-
-
 }
+
 
 Car.prototype.moveCar = function () {
   this.move = this.move + 10;
